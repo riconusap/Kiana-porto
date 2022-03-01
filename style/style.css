@@ -1,0 +1,80 @@
+body {
+  margin: 0px 208px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#acffe1), to(#ffffff));
+  background: linear-gradient(180deg, #acffe1 0%, #ffffff 100%);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  margin-top: 51px;
+}
+
+nav .collapse .navbar-brand {
+  width: 42px;
+  height: 42px;
+  background: #cdfff3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  margin-right: 90px;
+}
+
+nav .collapse .navbar-nav .nav-link {
+  font-family: "Inter", sans-serif;
+  margin-right: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+nav .collapse .navbar-nav .nav-link.active {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+nav .collapse .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+nav .collapse .navbar-nav:first-child {
+  margin-right: 100px;
+}
+
+.content {
+  margin-top: 92px;
+}
+
+.content .content-image .img-background {
+  position: absolute;
+  -webkit-box-shadow: 0px 4px 4px #00ffa3;
+          box-shadow: 0px 4px 4px #00ffa3;
+  -webkit-filter: blur(37px);
+          filter: blur(37px);
+  border-radius: 10px;
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg);
+  width: 330px;
+  height: 368.5px;
+  box-shadow: 0px 4px 4px #00ffa3;
+}
+
+.content .content-image .img {
+  width: 330px;
+  height: 368.5px;
+  border-radius: 10px;
+  -webkit-transform: rotate(13deg);
+          transform: rotate(13deg);
+}
+
+.content .content-head .button-circle {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
